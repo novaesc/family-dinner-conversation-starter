@@ -3,55 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Darumadrop+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Generated Conversation Starter</title>
   </head>
-  <header>
+
   <body>
-    <h1>Family Dinner Conversation Starter</h1>
-    </header>
-    <main>
+    <div class="container">
+      <header>
+        <h1>Family Dinner Conversation Starters</h1>
+      </header>
+      <main>
         <form>
-<label for="age"></label>
-<select id="age" name="age" autofocus required>
-  <option value="" disabled selected>Choose Age Range</option>
-  <option value="option1">5 to 8</option>
-  <option value="option2">9 to 12</option>
-  <option value="option3">13 to 17</option>
-  <option value="option4">18 to 22</option>
-</select>
+          <label for="age"></label>
+          <select id="age" name="age" autofocus required>
+            <option value="" disabled selected>Choose Age Range</option>
+            <option value="option1">5 to 8</option>
+            <option value="option2">9 to 12</option>
+            <option value="option3">13 to 17</option>
+            <option value="option4">18 to 22</option>
+          </select>
 
-  <input type="submit">
-</form>
-<div>
-The topic will go here <br/>
-<br/>
-<br/>
-<br/>
-</div>
+          <input type="submit" />
+        </form>
+        <div class="topic">
+          The topic will go here <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </main>
 
- </main>
-    <footer>
-      This project was coded by
-      <a
-        href="https://www.linkedin.com/in/francesca-valentini-smmtech/"
-        target="_blank"
-        >Francesca Valentini,
-      </a>
-      open-sourced on
-      <a
-        href="https://github.com/novaesc/family-dinner-conversation-starter"
-        target="_blank"
-      >
-        GitHub</a
-      >
-      and is hosted on
-      <a
-        href="https://family-conversation-starters.netlify.app/"
-        target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/francesca-valentini-smmtech/"
+          target="_blank"
+          >Francesca Valentini
+        </a>
+        ,open-sourced on
+        <a
+          href="https://github.com/novaesc/family-dinner-conversation-starter"
+          target="_blank"
+        >
+          GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://family-conversation-starters.netlify.app/"
+          target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

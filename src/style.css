@@ -1,3 +1,75 @@
 body {
-  background-color: rgb(220, 220, 241);
+  background-color: #e2e3db;
+  font-family: Darumadrop One;
+}
+
+a {
+  color: #987866;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #246b71;
+  font-size: 50px;
+}
+
+main {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid #bc9175;
+  width: 250px;
+  background-color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  background-color: #bc9175;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #987866;
+}
+
+.topic {
+  font-size: 20px;
+  background-color: rgb(213, 249, 213);
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid rgb(171, 231, 171);
+  border-radius: 3px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
