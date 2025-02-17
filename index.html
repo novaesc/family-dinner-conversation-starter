@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +20,7 @@
         <h1>Family Dinner Conversation Starters</h1>
       </header>
       <main>
-        <form>
+        <form id="topic-generator-form">
           <label for="age"></label>
           <select id="age" name="age" autofocus required>
             <option value="" disabled selected>Choose Age Range</option>
@@ -31,7 +32,7 @@
 
           <input type="submit" />
         </form>
-        <div class="topic">
+        <div class="topic" id="topic">
           The topic will go here <br />
           <br />
           <br />
