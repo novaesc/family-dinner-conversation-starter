@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,19 +24,18 @@
       <main>
         <form id="topic-generator-form">
           <label for="age"></label>
-          <select id="age" name="age" autofocus required>
+
+          <select id="user-age" name="age" class="age" autofocus required>
             <option value="" disabled selected>Choose Age Range</option>
-            <option value="option1">5 to 8</option>
-            <option value="option2">9 to 12</option>
-            <option value="option3">13 to 17</option>
-            <option value="option4">18 to 22</option>
+            <option value="5 to 8">5 to 8</option>
+            <option value="9 to 12">9 to 12</option>
+            <option value="13 to 17">13 to 17</option>
+            <option value="18 to 22">18 to 22</option>
           </select>
 
           <input type="submit" />
         </form>
         <div class="topic" id="topic">
-          The topic will go here <br />
-          <br />
           <br />
           <br />
         </div>
