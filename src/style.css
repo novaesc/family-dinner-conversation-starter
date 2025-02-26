@@ -21,6 +21,7 @@ h1 {
   line-height: 1.5;
   color: #1f4548;
   font-size: 50px;
+  text-shadow: 2px 2px 5px white; /* Orange-red shadow */
 }
 
 main {
@@ -37,7 +38,7 @@ select {
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 25px;
-  border: 1px solid #bc9175;
+  border: 1px solid #1f4548;
   width: 250px;
   background-color: whitesmoke;
   margin-bottom: 15px;
@@ -48,14 +49,14 @@ input[type="submit"] {
   font-size: 18px;
   border-radius: 25px;
   border: none;
-  background-color: #bc9175;
+  background-color: rgba(65, 185, 65, 0.892);
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #987866;
+  background-color: rgb(91, 226, 91);
 }
 
 .topic {
@@ -65,6 +66,29 @@ input[type="submit"]:hover {
   line-height: 1.5;
   border-left: 5px solid rgb(148, 223, 148);
   border-radius: 3px;
+  display: none;
+}
+
+#loading-message {
+  display: none; /* Hidden initially */
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4500; /* Orange-red color */
+  text-align: center;
+  margin: 23px 0;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  } /* Less drastic fade */
+  100% {
+    opacity: 1;
+  }
 }
 
 footer {
